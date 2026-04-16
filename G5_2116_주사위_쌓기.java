@@ -38,7 +38,7 @@ public class Main {
         System.out.println(ans);
     }
 
-    private static void solve(int num, int sum, int cnt) {
+    public static void solve(int num, int sum, int cnt) {
         if(cnt == N) {
             ans = Math.max(sum, ans);
             return;
