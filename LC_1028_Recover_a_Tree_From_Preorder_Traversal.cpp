@@ -47,7 +47,6 @@ public:
 
             st[depth] = node;
         }
-
         return st[0];
     }
 };
